@@ -1,0 +1,47 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 id="title">Microverse Survey Form</h1>
+        <p id="description">This is the microverse survey form</p>
+        <form id="survey-form">
+            <label id="name-label">Name</label>
+            <input type="text" id="name" name="name" value="" placeholder="Enter Your Name">
+            <label id="email-label">Email</label>
+            <input type="email" id="email" name="email" value="" placeholder="Enter Your Email">
+            <label id="number-label">Age (Optional)</label>
+            <input type="number" id="number" name="age" value="" placeholder="Enter Your Age" min="1" max="100">
+            <label id="role-label">Which option best describe your current role?</label>
+            <select id="dropdown" name="role">
+                <option value="">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Full Time Learner</option>
+                <option value="4">Prefer Not to Say</option>
+                <option value="5">Other</option>
+            </select>
+            <label id="recommend-label">Why you recomend</label>
+            <input type="radio" name="recommend" value="Definitely">
+            <input type="radio" name="recommend" value="Maybe">
+            <input type="radio" name="recommend" value="Not Sure">
+            <label id="improve-label">What would you like to see improved? (Check all that apply)</label>
+            <input type="checkbox" name="frontend" value="Front-end Projects"><label>Front-end Projects</label><br>
+            <input type="checkbox" name="backend" value="Back-end Projects"><label>Back-end Projects</label><br>
+            <input type="checkbox" name="datavisualization" value="Data Visualization"><label>Data Visualization</label><br>
+            <input type="checkbox" name="challenges" value="Challenges"><label>Challenges</label><br>
+            <input type="checkbox" name="opensource" value="Open Source Community"><label>Open Source Community</label><br>
+            <input type="checkbox" name="gitter" value="Gitter help rooms"><label>Gitter help rooms</label><br>
+            <input type="checkbox" name="videos" value="Videos"><label>Videos</label><br>
+            <input type="checkbox" name="citymeetups" value="City Meetups"><label>City Meetups</label><br>
+            <input type="checkbox" name="wiki" value="Wiki"><label>Wiki</label><br>
+            <input type="checkbox" name="forum" value="Forum"><label>Forum</label><br>
+            <input type="checkbox" name="additionalcourses" value="Additional Courses"><label>Additional Courses</label><br>
+            <label id="comments-label">Any Comments or Suggestions?</label>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter Your comments here"></textarea>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </body>
+</html>
+
+
